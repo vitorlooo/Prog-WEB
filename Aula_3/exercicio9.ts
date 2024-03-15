@@ -1,9 +1,7 @@
 function somaNumerosPares(arr: number[]): number {
     let soma = 0;
 
-    for (let i = 0; i < arr.length; i++) {
-        const numero = arr[i];
-
+    for (let numero of arr) {
         if (numero % 2 === 0) {
             soma += numero;
         }
